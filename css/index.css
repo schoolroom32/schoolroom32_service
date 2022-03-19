@@ -231,7 +231,41 @@ body {
   .text-5 {
     position: relative;
     z-index: 7;
-    margin-top: -859px;
+    margin-top: -862px;
     margin-left: 32.04688%;
+  }
+}
+
+@media(max-width: 300px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .container {
+    position: relative;
+    z-index: 5;
+  }
+
+  .element {
+    position: relative;
+    z-index: 6;
+  }
+
+  .text-1 {
+    margin-left: 15.19792%;
+  }
+
+  .text-3,
+  .text-4 {
+    margin-left: 15.15625%;
+  }
+
+  .text-5 {
+    position: relative;
+    z-index: 7;
+    width: 158px;
+    min-width: 158px;
+    margin-top: -871px;
+    margin-left: 37.19792%;
   }
 }
