@@ -1,0 +1,211 @@
+body {
+  background-color: #1b1a1f;
+  font: normal 1.25em/1.38 'Manrope ExtraBold';
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 4%;
+  height: 48px;
+  margin: 15px 0 0 15%;
+  background-image: url('../images/sroom32.png');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  background-position: center center;
+}
+
+.element {
+  position: relative;
+  float: left;
+  z-index: 6;
+  width: 0.25%;
+  height: 48px;
+  margin: 15px 0 0 0.4974%;
+  background-color: #2c2a32;
+}
+
+.text {
+  float: left;
+  clear: both;
+}
+
+._button {
+  display: block;
+  float: left;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #2c2a32;
+  font-family: Helvetica;
+  font-size: 0.8em;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+._button:hover {
+  background-color: #393742;
+}
+
+.text-1 {
+  min-width: 381px;
+  min-height: 110px;
+  margin: 47px 0 0 15.19922%;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  width: 381px;
+  min-width: 381px;
+  min-height: 108px;
+  margin: 5px 0 0 15.16667%;
+  font-size: 1em;
+  color: #514f5c;
+}
+
+.text-3 {
+  min-width: 346px;
+  min-height: 55px;
+  margin: 179px 0 0 15.16667%;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.text-4 {
+  min-width: 347px;
+  min-height: 38px;
+  margin: 30px 0 0 15.16667%;
+  font-size: 1.4em;
+  color: rgb(228, 228, 228);
+}
+
+._button-1 {
+  position: relative;
+  z-index: 7;
+  width: 16.8333333333%;
+  margin: 23px 0 0 0.58464%;
+}
+
+._button-2 {
+  clear: both;
+  width: 13.8333333333%;
+  min-width: 166px;
+  min-height: 32px;
+  margin: 15px 0 0 15.16667%;
+}
+
+@media(max-width: 900px) {
+  .container {
+    position: relative;
+    z-index: 5;
+    width: 48px;
+  }
+
+  .element {
+    position: relative;
+    z-index: 6;
+    width: 3px;
+    margin-left: 0.49653%;
+  }
+
+  .text-1 {
+    margin-left: 15.19792%;
+  }
+
+  ._button-1 {
+    position: relative;
+    z-index: 7;
+    width: 35.8888888888%;
+    margin-left: 0.58681%;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .container {
+    position: relative;
+    z-index: 5;
+    margin-left: 14.32292%;
+  }
+
+  .element {
+    position: relative;
+    z-index: 6;
+    margin-left: 0.46615%;
+  }
+
+  ._button-1 {
+    position: relative;
+    z-index: 7;
+    width: 52.6666666666%;
+    margin-left: 0.66146%;
+  }
+
+  ._button-2 {
+    width: 15.1666666666%;
+  }
+}
+
+@media(max-width: 400px) {
+  .container {
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+  }
+
+  .element {
+    position: relative;
+    z-index: 6;
+    margin-left: 1.79688%;
+  }
+
+  .text-1 {
+    min-width: 339px;
+    min-height: 220px;
+    margin-left: 15.19922%;
+  }
+
+  .text-2 {
+    width: 221px;
+    min-width: 221px;
+    min-height: 189px;
+    margin-left: 15.25%;
+  }
+
+  .text-3 {
+    min-width: 339px;
+    min-height: 110px;
+    margin-top: 98px;
+    margin-left: 15.16016%;
+  }
+
+  .text-4 {
+    min-width: 339px;
+    min-height: 76px;
+    margin-left: 15.16016%;
+  }
+
+  ._button-1 {
+    position: relative;
+    z-index: 7;
+    width: 58.75%;
+    margin-left: 1.17969%;
+  }
+
+  ._button-2 {
+    width: 28.7499999999%;
+    min-width: 115px;
+    margin-left: 15.25%;
+  }
+}
