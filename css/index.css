@@ -29,7 +29,6 @@ body {
 
 .text {
   float: left;
-  clear: both;
 }
 
 ._button {
@@ -60,6 +59,18 @@ body {
 }
 
 .text-1 {
+  position: relative;
+  z-index: 7;
+  width: 222px;
+  min-width: 222px;
+  min-height: 27px;
+  margin: 27px 0 0 2.25%;
+  font-size: 1em;
+  color: #514f5c;
+}
+
+.text-2 {
+  clear: both;
   min-width: 381px;
   min-height: 110px;
   margin: 47px 0 0 15.19922%;
@@ -67,7 +78,8 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.text-2 {
+.text-3 {
+  clear: both;
   width: 381px;
   min-width: 381px;
   min-height: 108px;
@@ -76,7 +88,8 @@ body {
   color: #514f5c;
 }
 
-.text-3 {
+.text-4 {
+  clear: both;
   min-width: 346px;
   min-height: 55px;
   margin: 179px 0 0 15.16667%;
@@ -84,23 +97,13 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.text-4 {
+.text-5 {
+  clear: both;
   min-width: 347px;
   min-height: 38px;
   margin: 30px 0 0 15.16667%;
   font-size: 1.4em;
   color: rgb(228, 228, 228);
-}
-
-.text-5 {
-  position: relative;
-  z-index: 7;
-  width: 225px;
-  min-width: 225px;
-  min-height: 27px;
-  margin: -656px 0 0 20.375%;
-  font-size: 1em;
-  color: #514f5c;
 }
 
 .text span {
@@ -145,13 +148,15 @@ body {
   }
 
   .text-1 {
-    margin-left: 15.19792%;
-  }
-
-  .text-5 {
     position: relative;
     z-index: 7;
-    margin-left: 22%;
+    width: 221px;
+    min-width: 221px;
+    margin-left: 0.83681%;
+  }
+
+  .text-2 {
+    margin-left: 15.19792%;
   }
 }
 
@@ -176,10 +181,14 @@ body {
     width: 15.1666666666%;
   }
 
-  .text-5 {
+  .text-1 {
     position: relative;
     z-index: 7;
-    margin-left: 24.6224%;
+    margin-left: 1.29167%;
+  }
+
+  .text-4 {
+    margin-top: 118px;
   }
 }
 
@@ -199,40 +208,41 @@ body {
   ._button {
     width: 28.7499999999%;
     min-width: 115px;
-    margin-left: 15.25%;
+    margin-left: 15.08594%;
   }
 
   .text-1 {
-    min-width: 339px;
-    min-height: 220px;
-    margin-left: 15.19922%;
+    position: relative;
+    z-index: 7;
+    margin-top: 25px;
+    margin-left: 0.84766%;
   }
 
   .text-2 {
-    width: 221px;
-    min-width: 221px;
-    min-height: 189px;
-    margin-left: 15.25%;
+    min-width: 339px;
+    min-height: 220px;
+    margin-top: 51px;
+    margin-left: 15.03516%;
   }
 
   .text-3 {
-    min-width: 339px;
-    min-height: 110px;
-    margin-top: 98px;
-    margin-left: 15.16016%;
+    width: 221px;
+    min-width: 221px;
+    min-height: 189px;
+    margin-left: 15.08594%;
   }
 
   .text-4 {
     min-width: 339px;
-    min-height: 76px;
-    margin-left: 15.16016%;
+    min-height: 110px;
+    margin-top: 98px;
+    margin-left: 15%;
   }
 
   .text-5 {
-    position: relative;
-    z-index: 7;
-    margin-top: -862px;
-    margin-left: 32.04688%;
+    min-width: 339px;
+    min-height: 76px;
+    margin-left: 15%;
   }
 }
 
@@ -251,21 +261,29 @@ body {
     z-index: 6;
   }
 
+  ._button,
+  .text-3 {
+    margin-left: 15.29167%;
+  }
+
   .text-1 {
-    margin-left: 15.19792%;
-  }
-
-  .text-3,
-  .text-4 {
-    margin-left: 15.15625%;
-  }
-
-  .text-5 {
     position: relative;
     z-index: 7;
-    width: 158px;
-    min-width: 158px;
-    margin-top: -871px;
-    margin-left: 37.19792%;
+    width: 160px;
+    min-width: 150px;
+    min-height: 0;
+    margin-top: 28px;
+    margin-left: 1.80208%;
+    font-size: 0.7em;
+  }
+
+  .text-2 {
+    margin-top: 44px;
+    margin-left: 15.23438%;
+  }
+
+  .text-4,
+  .text-5 {
+    margin-left: 15.19792%;
   }
 }
